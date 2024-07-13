@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>form</title>
+        <style>
+            marquee {
+                color: antiquewhite;
+                font-size: 50px;
+                font-family: cursive;
+                font-style: italic;
+            }
+           
+            img {
+                width: 450px;
+                margin-left: 40%;
+                border: blueviolet;
+                border-style: groove;
+                border-width: 20px;
+                border-radius: 50%;
+                margin-top: -20%;
+            }
+            body{
+                background-image: linear-gradient(gray,white);
+            }
+            .gen{
+                color: red;
+            }
+            #newgen{
+                color: blue;
+                font-size: 40px;
+            }
+            #pad{
+                width: 40%;
+                background-color: blanchedalmond;
+                padding: 200px;
+            }
+        </style>
+    </head>
+    <body> 
+        <marquee  direction="right">Nitish</marquee>
+        <form action="mailto:nitishknitish777@gmail.com:"method="post"> 
+            Name:<br>
+            <input type="text" name="Name" placeholder="enter your name" required>
+            <br><br>
+            Age:<br>
+            <input type="text" name="Age">
+            <br><br>
+            Gender:<br>
+            <input type="radio" name="gender" value="male" id="gender-m">
+            <label for="gender-m" class="gen" id="newgen">male</label>
+            
+            <input type="radio" name="gender" value="female" id="gender-f">
+            <label for="gender-f" class="gen">female</label>
+            
+            <br><br>
+            skills:
+            <input type="checkbox" name="skills" id="skill1" value="HTML">
+            <label for="skill1">HTML</label>
+            <input type="checkbox" name="skills" id="skill2" value="CSS">
+            <label for="skill2">CSS</label>
+            <input type="checkbox" name="skills" id="skill3" value="JAVA">
+            <label for="skill3">JAVA</label>
+            <br><br>
+            List of the courses:
+            <select name="List of courses" id="">
+                <option >select a course</option>
+                <option value>Web development</option>
+                <option value>Python programming </option>
+                <option value>Java certification</option>
+                <option value>Full stack developer</option>
+                <option value>Back-end developer</option>
+              
+            </select>
+            <br><br>
+            <input type="submit" name="submit" value="submit">
+            <input type="reset" value="reset">
+        </form>
+        <img src="https://images.bauerhosting.com/legacy/empire-tmdb/films/1771/images/3qlzyunDrkwWOKEWZRxeIF4HEUC.jpg?ar=16%3A9&fit=crop&crop=top&auto=format&w=undefined&q=80">
+      <div id="pad"> 
+        <p style="background-color: blue;"> apple</p>
+        
+      </div>
+       
+
+       
+    </body>
+</html>
