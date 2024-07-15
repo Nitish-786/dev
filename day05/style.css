@@ -1,0 +1,23 @@
+body{
+    background-color: beige;
+}
+.hello{
+    width: 50%;
+  
+}
+.newclass{
+    background-color: darkgreen;
+}
+.hello:hover{
+    background-color: aquamarine;
+}
+.hello>pre
+{
+    cursor: pointer;
+    font-size: 2em;
+}
+.hello>pre:hover{
+    color: aqua;
+
+
+}
